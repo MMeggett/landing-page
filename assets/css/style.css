@@ -1,0 +1,28 @@
+* {
+    font-family: serif, 'Courier New', Courier, monospace;
+}
+
+.header-list {
+    display: inline;
+}
+
+header {
+    position: fixed;
+    top: -20px;
+    right: 0px;
+    width: 100%;
+    height: 35px;
+    margin: 10px;
+    text-align: right;
+    background-color: blueviolet;
+    background-size: 100%;
+}
+
+#restofpage{
+    position: relative;
+}
+
+#restofpagebox{
+    position: absolute;
+    top: 76px;
+}
