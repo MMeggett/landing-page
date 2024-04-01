@@ -2,6 +2,10 @@
     font-family: serif, 'Courier New', Courier, monospace;
 }
 
+li{ 
+    display: block;
+}
+
 .header-list {
     display: inline;
 }
@@ -17,12 +21,25 @@ header {
     background-color: blueviolet;
     background-size: 100%;
 }
+/* 
+body{
+    margin: 30px auto;
+    width: 80%;
+} */
 
 #restofpage{
     position: relative;
+    /* margin: 30px auto;
+    width: 80%; */
+    text-align: center;
 }
 
 #restofpagebox{
     position: absolute;
     top: 76px;
+}
+
+section{
+    margin: 0px auto;
+    width: 100%;
 }
