@@ -8,7 +8,8 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
-<body style="background-color: darkslategrey;">
+<body style="background-color: #363539;">
+
     <header>
         <h2>
             <ul>
@@ -18,26 +19,25 @@
             </ul>
         </h2>
     </header>
+    
     <section id="restofpage">
         <section id="restofpagebox">
-            <h1>
-                My New Website
-            </h1>
-            <!-- Image w/ caption -->
-            <img src="./assets/images/image-1.png" alt="picture of bulbasaur">
-            <p>Bulbasaur</p>
-
-            <section>
-                <!-- Contact Me Section -->
+            <section class="border-box">
+                <h1 class="section-text">
+                    My New Website
+                </h1>
+                <img src="./assets/images/image-1.png" alt="picture of bulbasaur">
+                <p class="section-text" style="color: white">Bulbasaur</p>
+            </section>
+            <section class="border-box">
                 <h3 id="contact-me">Contact Me</h3>
                 <ul>
-                    <li>Name: <input type="text" id="myInput" name="myInput" placeholder=""></li>
-                    <li>Email: <input type="text" id="myInput" name="myInput" placeholder=""></li>
+                    <li class="contact-list">Name: <input type="text" id="myInput" name="myInput" placeholder=""></li>
+                    <li class="contact-list">Email: <input type="text" id="myInput" name="myInput" placeholder=""></li>
                 </ul>
-                <button onclick="myFunction()">Send</button>
+                <button class="section-text" onclick="myFunction()">Send</button>
             </section>
-
-            <footer>My New Website Productions</footer>
+            <footer style="color: white">My New Website Productions</footer>
         </section>
     </section>
 
